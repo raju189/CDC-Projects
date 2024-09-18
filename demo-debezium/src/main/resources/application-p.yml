@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: demo-debezium
+  kafka:
+    boostrap-servers: localhost:29092
+    producer:
+      cdc-sync-topic: cdc-sync-topic
+      properties:
+        key
+
+datasource:
+  host: localhost
+  port: 1433
+  username: sa
+  password: Password123
+  dbName: accounts
+
+topic-prefix: accounts
